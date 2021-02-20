@@ -1,0 +1,18 @@
+
+["Harder Natural Healing Control Values"]
+	#healingPerSecond
+	#Range: 0.0 ~ 10.0
+	healingPerSecond = 0.1
+	#minimumFoodHealingLevel
+	#Range: 0.0 ~ 22.0
+	minimumFoodHealingLevel = 18.0
+	#healingExhaustionCost - Hunger exhausted per healing event.
+	#Range: 0.0 ~ 10.0
+	healingExhaustionCost = 2.0
+	#wakeupHealingAmount
+	#Range: 0.0 ~ 10.0
+	wakeupHealingAmount = 4.0
+	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
+	#Range: 0 ~ 2
+	debugLevel = 0
+

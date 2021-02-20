@@ -1,0 +1,33 @@
+
+#These options will be synced to with all clients.
+[server]
+
+	#Options related to the brazier structure
+	[server.brazier]
+		#By how many blocks will the range grow per level (height)
+		#Range: > 0
+		rangePerLevel = 10
+		#Should the brazier protect blocks above it too?
+		protectAbove = false
+		#The maximum height a brazier will recognize
+		#Range: > 1
+		maxHeight = 10
+		#The base range. Base range + blocks per level = actual range
+		#Range: > 0
+		baseRange = 20
+		#Enable to spawn powder block?
+		spawnPowder = true
+		#How should the distance to the brazier be calculated?
+		#Allowed Values: SPHERE, CYLINDER
+		distanceCalc = "CYLINDER"
+
+	#Options related to the acquisition of the living flame
+	[server.acquisition]
+		#Should the living flame generate in jungle temple chests?
+		jungleLoot = true
+		#The chance a crazed will spawn instead of an evoker in a mansion
+		#Range: 0.0 ~ 1.0
+		crazedChance = 0.4
+		#Should crazed illagers spawn in generated woodland mansions?
+		spawnCrazed = true
+

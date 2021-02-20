@@ -1,0 +1,133 @@
+
+#HOW TO RELOAD: Configs reload every time you unpause or visit the title screen.
+#
+#Pardon this awkward layout. Please teach me a better way to sort options.
+["Name Pain"]
+	#
+	#true: Keep original coloring on scoreboards. [vanilla]
+	#false: Apply Name Pain coloring to scoreboards.
+	#Default: true
+	"Vanilla Scoreboards" = true
+	#
+	#true: Remove existing formatting from nameplate text.
+	#false: Formatting like team colors might override Name Pain coloring on text. Plates will still be colorable.
+	#Default: false
+	"Strip Format" = false
+	#
+	#true: See item frame nameplates when looking at them. [vanilla]
+	#false: Never see item frame nameplates.
+	#Default: true
+	"Show Item Frames" = true
+	#
+	#true: Never see your nameplate. [vanilla]
+	#false: See your own name in 3rd-person view. Inventory view may have issues.
+	#Default: true
+	"Vanilla Self" = true
+	#
+	#true: Always see names, even when the HUD is off.
+	#false: Only see names when the HUD is on. [vanilla]
+	#Default: false
+	"Show Without HUD" = false
+	#
+	#true: Always see the names of your tames.
+	#false: Only see mob names when looking at them. [vanilla]
+	#Default: true
+	"Tames Always Named" = true
+	#
+	#true: Keep original coloring on mob names. [vanilla]
+	#false: Apply Name Pain coloring to mob names.
+	#Default: false
+	"Vanilla Mobs" = false
+
+	["Name Pain".Name]
+
+		#RGBA values for NAMES with MINIMUM health (Default: opaque red)
+		["Name Pain".Name.Min]
+			#Default: 255
+			#Range: 0 ~ 255
+			Red = 255
+
+			["Name Pain".Name.Min._]
+				#Default: 0
+				#Range: 0 ~ 255
+				Green = 0
+
+				["Name Pain".Name.Min._._]
+					#Default: 0
+					#Range: 0 ~ 255
+					Blue = 0
+
+					["Name Pain".Name.Min._._._]
+						#0.0 = transparent, 1.0 = opaque
+						#Default: 1.0
+						#Range: 0.0 ~ 1.0
+						Alpha = 1.0
+
+		#RGBA values for NAMES with MAXIMUM health (Default: opaque white)
+		["Name Pain".Name.Max]
+			#Default: 255
+			#Range: 0 ~ 255
+			Red = 255
+
+			["Name Pain".Name.Max._]
+				#Default: 255
+				#Range: 0 ~ 255
+				Green = 255
+
+				["Name Pain".Name.Max._._]
+					#Default: 255
+					#Range: 0 ~ 255
+					Blue = 255
+
+					["Name Pain".Name.Max._._._]
+						#0.0 = transparent, 1.0 = opaque
+						#Default: 1.0
+						#Range: 0.0 ~ 1.0
+						Alpha = 1.0
+
+	["Name Pain".Plate]
+
+		#RGBA values for BACKGROUNDS with MINIMUM health (Default: transparent black)
+		["Name Pain".Plate.Min]
+			#Default: 192
+			#Range: 0 ~ 255
+			Red = 192
+
+			["Name Pain".Plate.Min._]
+				#Default: 0
+				#Range: 0 ~ 255
+				Green = 0
+
+				["Name Pain".Plate.Min._._]
+					#Default: 0
+					#Range: 0 ~ 255
+					Blue = 0
+
+					["Name Pain".Plate.Min._._._]
+						#0.0 = transparent, 1.0 = opaque
+						#Default: 0.25
+						#Range: 0.0 ~ 1.0
+						Alpha = 0.25
+
+		#RGBA values for BACKGROUNDS with MAXIMUM health (Default: transparent black)
+		["Name Pain".Plate.Max]
+			#Default: 0
+			#Range: 0 ~ 255
+			Red = 0
+
+			["Name Pain".Plate.Max._]
+				#Default: 0
+				#Range: 0 ~ 255
+				Green = 0
+
+				["Name Pain".Plate.Max._._]
+					#Default: 0
+					#Range: 0 ~ 255
+					Blue = 0
+
+					["Name Pain".Plate.Max._._._]
+						#0.0 = transparent, 1.0 = opaque
+						#Default: 0.25
+						#Range: 0.0 ~ 1.0
+						Alpha = 0.25
+

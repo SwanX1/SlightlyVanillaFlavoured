@@ -1,0 +1,13 @@
+
+[General]
+	#The global damage modifier for players.
+	#Range: 0.01 ~ 20.0
+	playerDamageModifier = 1.35
+	#If enabled, modifies the damage another entity receives by the global modifier.
+	alterEntityDamageTaken = false
+	#If enabled, modifies the damage a player receives by the global modifier.
+	alterPlayerDamageTaken = true
+	#The global damage modifier for other entities.
+	#Range: 0.01 ~ 20.0
+	entityDamageModifier = 1.0
+

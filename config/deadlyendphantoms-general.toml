@@ -1,0 +1,17 @@
+
+#End Phantom Configuration
+[end_phantom_configuration]
+	#Disable vanilla Phantom spawns in the Overworld [true / false]
+	disableOverworldPhantoms = false
+	#Allow Phantoms to spawn in End Highlands and End Midlands [true / false]
+	enableEndPhantoms = true
+	#Minimum group size of Phantoms spawning in the End [0-100, default: 4]
+	#Range: 0 ~ 100
+	endPhantomMinGroupSize = 4
+	#Spawn weight of Phantoms spawning in the End [0-100, default: 5]
+	#Range: 0 ~ 100
+	endPhantomSpawnWeight = 3
+	#Maximum group size of Phantoms spawning in the End [0-100, default: 4]
+	#Range: 0 ~ 100
+	endPhantomMaxGroupSize = 4
+

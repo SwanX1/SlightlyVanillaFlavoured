@@ -1,0 +1,7 @@
+
+[travelersIndex]
+	#A list of blacklisted items
+	blackListedItems = []
+	#A list of blacklisted mods
+	blackListedMods = ["mining_helmet", "sereneseasons", "waystones", "bedspreads", "scuba_gear", "architects_palette", "toolbelt", "cofh_core", "structure_gel", "champions", "archers_paradox", "alexmobs", "enhanced_mushrooms", "extraboats", "citadel", "conjurer_illager", "curios"]
+
