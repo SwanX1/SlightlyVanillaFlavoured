@@ -3,7 +3,7 @@
     "version": "1.16.5",
     "modLoaders": [
       {
-        "id": "forge-36.0.1",
+        "id": "forge-36.0.25",
         "primary": true
       }
     ]
@@ -11,14 +11,9 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Slightly Vanilla Flavoured",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "author": "Ramoddi",
   "files": [
-    {
-      "projectID": 386415,
-      "fileID": 3103750,
-      "required": true
-    },
     {
       "projectID": 228525,
       "fileID": 3170154,
@@ -116,12 +111,7 @@
     },
     {
       "projectID": 348521,
-      "fileID": 3203817,
-      "required": true
-    },
-    {
-      "projectID": 245755,
-      "fileID": 3098215,
+      "fileID": 3210411,
       "required": true
     },
     {
@@ -195,11 +185,6 @@
       "required": true
     },
     {
-      "projectID": 227795,
-      "fileID": 3178423,
-      "required": true
-    },
-    {
       "projectID": 220318,
       "fileID": 3181401,
       "required": true
@@ -226,7 +211,7 @@
     },
     {
       "projectID": 441114,
-      "fileID": 3205562,
+      "fileID": 3210104,
       "required": true
     },
     {
@@ -282,11 +267,6 @@
     {
       "projectID": 312353,
       "fileID": 3208854,
-      "required": true
-    },
-    {
-      "projectID": 438668,
-      "fileID": 3180991,
       "required": true
     },
     {
@@ -366,12 +346,12 @@
     },
     {
       "projectID": 353399,
-      "fileID": 3155825,
+      "fileID": 3109976,
       "required": true
     },
     {
-      "projectID": 272515,
-      "fileID": 3109976,
+      "projectID": 353399,
+      "fileID": 3155825,
       "required": true
     },
     {
