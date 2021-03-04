@@ -145,10 +145,10 @@
 "ExtraRecipes enabled" = true
 #Show maps in tooltips.
 "MapTooltips enabled" = true
-#Configure how often mob sounds are played.
-"MobSoundCulling enabled" = true
 #Crying obsidian and refined obsidian can be used to construct nether portal frames.
 "MorePortalFrames enabled" = true
+#Player-only pressure plates.
+"PlayerPressurePlates enabled" = true
 
 [AnvilImprovements]
 	#If true, removes the maximum cost of 40 XP when working items on the anvil.
@@ -391,10 +391,10 @@
 	"Drop chance" = 0.05
 
 [Atlas]
-	#The atlas will create maps of this size (0-4).
-	"Map Size" = 2
-	#Allow opening the atlas while it is in the off hand
+	#Allow opening the atlas while it is in the off hand.
 	"Open in off hand" = false
+	#Map scale used in atlases by default.
+	"Map scale" = 0
 
 [StackableStews]
 	#Maximum stew stack size.
@@ -426,9 +426,7 @@
 	#This module is automatically disabled if Quark is present. Set true to force enable.
 	Override = false
 
-[MobSoundCulling]
-	#List of mobs to apply the custom sound delay to.
-	"Custom mob types" = ["minecraft:cow", "minecraft:sheep"]
-	#This delay applies to all mobs in the custom mob types list. As a guide, sheep and cows are 120 in vanilla.
-	"Custom mob sound delay" = 400
+[PlayerPressurePlates]
+	#This module is automatically disabled if Quark is present. Set true to force enable.
+	Override = false
 

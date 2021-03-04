@@ -10,4 +10,6 @@
 	#The global damage modifier for other entities.
 	#Range: 0.01 ~ 20.0
 	entityDamageModifier = 1.0
+	#When enabled, does not change the damage output if it would be fatal with the modifier and not fatal without. Prevents dying from for example poison and starvation.
+	preventFatalModifiedDamage = true
 

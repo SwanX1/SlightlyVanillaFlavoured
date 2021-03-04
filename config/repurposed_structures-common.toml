@@ -12,17 +12,8 @@
 
 		["Mod-wide Impacting Options"."Feature Options".Misc]
 			#
-			# Add 2x2 Swamp Trees to modded swamp biomes.
-			addLargeSwampTreeModdedBiomes = true
-			#
 			# Adds giant boulders to modded Giant Tree Taiga (or Redwood) biomes.
 			addGiantBouldersModdedBiomes = false
-			#
-			# Add the ID/resource location of the biome you don't want
-			# RS's 2x2 Swamp trees to spawn in. Separate each ID with a comma ,
-			#
-			#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-			blacklistedSwampTreeBiomes = ""
 			#
 			# Add the ID/resource location of the biome you don't want
 			# RS's boulders to spawn in. Separate each ID with a comma ,
@@ -36,10 +27,6 @@
 			#
 			# Adds tiny boulders to modded Taiga biomes.
 			addTinyBouldersModdedBiomes = false
-			#
-			# Adds a large tree somewhat uncommonly to Swamp biome and replaces
-			# all vanilla trees in Swamp Hills biome with the larger tree.
-			hornedSwampTree = true
 			#
 			# Adds tiny boulders to Taiga Mountains and Snowy Taiga Mountains biomes 
 			# that can contain small amounts of Coal and Iron ores.
@@ -118,8 +105,7 @@
 			addJungleFortressToModdedBiomes = true
 
 		["Mod-wide Impacting Options"."Structure Options"."Ruined Portals"]
-			#Add End themed ruined portals to modded
-			#End category biomes.
+			#Add End themed ruined portals to modded End category biomes.
 			addRuinedPortalEndToModdedBiomes = true
 			#
 			# Add the ID/resource location of the biome you don't want
@@ -132,4 +118,32 @@
 			#chunks and 1001 for none.
 			#Range: 1 ~ 1001
 			ruinedPortalEndMaxChunkDistance = 57
+
+		["Mod-wide Impacting Options"."Structure Options".Ruins]
+			#
+			# Add the ID/resource location of the biome you don't want
+			# RS's Ruins to spawn in. Separate each ID with a comma ,
+			#
+			#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
+			blacklistedRuinsBiomes = ""
+			#How rare are Nether Ruins. 1 for spawning in most
+			#chunks and 1001 for none.
+			#Range: 1 ~ 1001
+			ruinsNetherMaxChunkDistance = 35
+			#Add Nether Ruins to modded Nether category biomes.
+			addRuinsNetherToModdedBiomes = true
+
+		["Mod-wide Impacting Options"."Structure Options".Cities]
+			#
+			# Add the ID/resource location of the biome you don't want
+			# RS's Cities to spawn in. Separate each ID with a comma ,
+			#
+			#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
+			blacklistedCitiesBiomes = ""
+			#How rare are Nether Cities. 1 for spawning in most
+			#chunks and 1001 for none.
+			#Range: 1 ~ 1001
+			citiesNetherMaxChunkDistance = 160
+			#Add Nether Cities to modded Nether category biomes.
+			addCitiesNetherToModdedBiomes = true
 

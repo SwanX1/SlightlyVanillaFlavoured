@@ -1,0 +1,9 @@
+{
+  "name": "changelog-builder",
+  "version": "0.0.0-DEV",
+  "main": "changelog.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "qoa": "^0.2.0"
+  }
+}
