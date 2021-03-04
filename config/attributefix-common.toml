@@ -203,7 +203,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 0.0
+	min = 4.9E-324
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0

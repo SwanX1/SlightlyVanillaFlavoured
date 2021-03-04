@@ -4,7 +4,7 @@
 	# Add the ID/resource location of the biome you don't want
 	# temples to spawn in. Separate each ID with a comma ,
 	#
-	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
+	# Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
 	blacklistedTempleBiomes = ""
 	#
 	# Add Nether Crimson Temples to modded Nether Crimson Forest biomes.
@@ -26,8 +26,7 @@
 	# Add Nether Basalt Temples to modded Nether Basalt biomes.
 	addNetherBasaltTempleToModdedBiomes = true
 	#
-	# Add Nether Wasteland Temples to modded Nether biomes
-	# that other nether temples don't fit in.
+	# Add Nether Wasteland Temples to modded Nether biomes that other nether temples don't fit in.
 	addNetherWastelandTempleToModdedBiomes = true
 	#
 	# How rare are Nether Temples in Nether Wastelands.
@@ -66,14 +65,16 @@
 	# Add the ID/resource location of the biome you don't want
 	# pyramids to spawn in. Separate each ID with a comma ,
 	#
-	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
+	# Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
 	blacklistedPyramidBiomes = ""
 	#
 	# Add Badlands Pyramid to modded Badlands biomes.
 	addBadlandsPyramidToModdedBiomes = true
-	#Add Snowy Pyramid to modded snowy biomes.
+	#
+	# Add Snowy Pyramid to modded snowy biomes.
 	#Range: 1 ~ 1001
 	pyramidSnowyMaxChunkDistance = 37
-	#Add Snowy Pyramid to modded snowy biomes.
+	#
+	# Add Snowy Pyramid to modded snowy biomes.
 	addPyramidSnowyToModdedBiomes = true
 

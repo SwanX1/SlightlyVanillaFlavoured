@@ -4,7 +4,7 @@
 	# Add the ID/resource location of the biome you don't want
 	# RS's strongholds to spawn in. Separate each ID with a comma ,
 	#
-	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
+	# Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
 	blacklistedStrongholdBiomes = ""
 	#
 	# Make Mob Spawners generate in rooms other than the Portal Room in Strongholds.
@@ -21,23 +21,21 @@
 	# Controls whether loot chests spawn or not in the Stronghold.
 	lootChestsSH = true
 	#
-	#Makes vanilla Strongholds no longer spawn at all.
-	#Will not affect Repurposed Structures's own Stonebrick Stronghold.
-	#If BetterStrongholds mod is on, this config has no effect as is treated as false.
-	#
+	# Makes vanilla Strongholds no longer spawn at all.
+	# Will not affect Repurposed Structures's own Stonebrick Stronghold.
+	# If BetterStrongholds mod is on, this config has no effect as is treated as false.
 	turnOffVanillaStrongholds = true
 
 	[Stronghold.Nether]
 		#
 		# Minimum Y height that Nether stronghold's starting point can spawn at. 
-		#Default is 35.
+		# Default is 35.
 		# Note: Strongholds will spawn between min and max y height set in config.
 		#
 		#Range: 0 ~ 255
 		netherStrongholdMinHeight = 33
 		#
 		# How rare are Chains in this Stronghold. (Can have Soul Lantern attached)
-		#
 		#Range: 0 ~ 1000
 		netherStrongholdChainSpawnrate = 50
 		#
@@ -51,27 +49,23 @@
 		netherStrongholdMaxChunkDistance = 85
 		#
 		# Minimum Y height that Nether stronghold's starting point can spawn at. 
-		#Default is 40.
+		# Default is 40.
 		# Note: Strongholds will spawn between min and max y height set in config.
 		# Setting this to below min height config will make strongholds spawn only at min height.
 		#Range: 0 ~ 255
 		netherStrongholdMaxHeight = 36
 		#
-		#Allow Nether-styled Stronghold to
-		#generate in modded Nether biomes.
-		#
+		# Allow Nether-styled Stronghold to generate in modded Nether biomes.
 		addNetherStrongholdToModdedBiomes = true
 
 	[Stronghold.Stonebrick]
 		#
-		#Add Stonebrick-styled Stronghold to all modded non-Nether biomes
-		#even if they have don't have vanilla Strongholds. It will replace
-		#the vanilla Strongholds in those biomes if this option is on.
-		#
+		# Add Stonebrick-styled Stronghold to all modded non-Nether biomes
+		# even if they have don't have vanilla Strongholds. It will replace
+		# the vanilla Strongholds in those biomes if this option is on.
 		addStonebrickStrongholdToModdedBiomes = true
 		#
 		# How rare are Chains in this Stronghold. (Can have Lantern attached)
-		#
 		#Range: 0 ~ 1000
 		stonebrickStrongholdChainSpawnrate = 35
 		#
@@ -81,11 +75,10 @@
 		#Range: 0.0 ~ 100.0
 		silverfishSpawnrateSH = 0.8
 		#
-		#Add Stonebrick-styled Stronghold which replaces vanilla Strongholds in any
-		#vanilla non-Nether biome. This option does not affect Nether Strongholds.
-		#If this is set to true and turnOffVanillaStrongholds is off, RS's Stonebrick
-		#Strongholds will still be added to vanilla biomes.
-		#
+		# Add Stonebrick-styled Stronghold which replaces vanilla Strongholds in any
+		# vanilla non-Nether biome. This option does not affect Nether Strongholds.
+		# If this is set to true and turnOffVanillaStrongholds is off, RS's Stonebrick
+		# Strongholds will still be added to vanilla biomes.
 		allowStonebrickStrongholdToVanillaBiomes = true
 		#
 		# How rare are Stonebrick-styled Strongholds.
@@ -94,9 +87,8 @@
 		stonebrickStrongholdMaxChunkDistance = 85
 		#
 		# Minimum Y height that normal stronghold's starting point can spawn at. 
-		#Default is 0.
+		# Default is 0.
 		# Note: Strongholds will spawn between min and max y height set in config.
-		#
 		#Range: 0 ~ 255
 		stonebrickStrongholdMinHeight = 0
 		#
