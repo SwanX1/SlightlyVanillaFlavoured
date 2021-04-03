@@ -25,4 +25,24 @@
 	#
 	#Display a tooltip when looking at overstressed components.
 	enableOverstressedTooltip = true
+	#
+	#Use modern OpenGL features to drastically increase performance.
+	experimentalRendering = true
+	#
+	#Use an alternative indicator when showing where the assisted placement ends up relative to your crosshair
+	smoothPlacementIndicator = false
+	#
+	#What indicator should be used when showing where the assisted placement ends up relative to your crosshair
+	#Allowed Values: TEXTURE, TRIANGLE, NONE
+	placementIndicator = "TEXTURE"
+	#
+	#Setting this to true will prevent Create from sending you a warning when playing with Fabulous graphics enabled
+	ignoreFabulousWarning = false
+
+	#
+	#Ponder settings
+	[client.ponder]
+		#
+		#Slow down a ponder scene whenever there is text on screen.
+		comfyReading = false
 

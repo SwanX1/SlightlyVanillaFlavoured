@@ -1,6 +1,1 @@
-
-#These options only affect the client
-[client]
-	#Should brazier structure render runes?
-	renderRunes = true
-
+RENDER_RUNES = true

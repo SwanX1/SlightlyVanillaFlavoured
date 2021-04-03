@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Slightly Vanilla Flavoured",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "author": "Ramoddi",
   "files": [
     {
@@ -60,18 +60,13 @@
       "required": true
     },
     {
-      "projectID": 238891,
-      "fileID": 3248516,
-      "required": true
-    },
-    {
       "projectID": 240633,
       "fileID": 3077903,
       "required": true
     },
     {
       "projectID": 243121,
-      "fileID": 3221260,
+      "fileID": 3254368,
       "required": true
     },
     {
@@ -90,11 +85,6 @@
       "required": true
     },
     {
-      "projectID": 250498,
-      "fileID": 3249528,
-      "required": true
-    },
-    {
       "projectID": 253449,
       "fileID": 3033593,
       "required": true
@@ -106,7 +96,7 @@
     },
     {
       "projectID": 260262,
-      "fileID": 3086049,
+      "fileID": 3258349,
       "required": true
     },
     {
@@ -196,7 +186,7 @@
     },
     {
       "projectID": 308653,
-      "fileID": 3118466,
+      "fileID": 3258439,
       "required": true
     },
     {
@@ -231,7 +221,7 @@
     },
     {
       "projectID": 328085,
-      "fileID": 3167531,
+      "fileID": 3260165,
       "required": true
     },
     {
@@ -266,7 +256,7 @@
     },
     {
       "projectID": 348521,
-      "fileID": 3235778,
+      "fileID": 3253620,
       "required": true
     },
     {
@@ -286,7 +276,7 @@
     },
     {
       "projectID": 353434,
-      "fileID": 3181436,
+      "fileID": 3254823,
       "required": true
     },
     {
@@ -426,7 +416,7 @@
     },
     {
       "projectID": 402616,
-      "fileID": 3159331,
+      "fileID": 3256084,
       "required": true
     },
     {
@@ -471,7 +461,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 3248258,
+      "fileID": 3254875,
       "required": true
     },
     {
@@ -505,8 +495,13 @@
       "required": true
     },
     {
+      "projectID": 431587,
+      "fileID": 3214653,
+      "required": true
+    },
+    {
       "projectID": 438003,
-      "fileID": 3249420,
+      "fileID": 3251174,
       "required": true
     },
     {
@@ -521,12 +516,12 @@
     },
     {
       "projectID": 442719,
-      "fileID": 3222472,
+      "fileID": 3251168,
       "required": true
     },
     {
       "projectID": 442962,
-      "fileID": 3221492,
+      "fileID": 3259805,
       "required": true
     },
     {
