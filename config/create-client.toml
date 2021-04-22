@@ -29,13 +29,6 @@
 	#Use modern OpenGL features to drastically increase performance.
 	experimentalRendering = true
 	#
-	#Use an alternative indicator when showing where the assisted placement ends up relative to your crosshair
-	smoothPlacementIndicator = false
-	#
-	#What indicator should be used when showing where the assisted placement ends up relative to your crosshair
-	#Allowed Values: TEXTURE, TRIANGLE, NONE
-	placementIndicator = "TEXTURE"
-	#
 	#Setting this to true will prevent Create from sending you a warning when playing with Fabulous graphics enabled
 	ignoreFabulousWarning = false
 
@@ -45,4 +38,17 @@
 		#
 		#Slow down a ponder scene whenever there is text on screen.
 		comfyReading = false
+
+	#
+	#Settings for the Placement Assist
+	[client.placementAssist]
+		#
+		#What indicator should be used when showing where the assisted placement ends up relative to your crosshair
+		#Choose 'NONE' to disable the Indicator altogether
+		#Allowed Values: TEXTURE, TRIANGLE, NONE
+		indicatorType = "TEXTURE"
+		#
+		#Change the size of the Indicator by this multiplier
+		#Range: 0.0 ~ 3.4028234663852886E38
+		indicatorScale = 1.0
 

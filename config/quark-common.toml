@@ -21,6 +21,8 @@
 	"Use Fast Worldgen" = false
 	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
 	"Use Piston Logic Replacement" = true
+	#Allowed values: (0,)
+	"Advancement Visibility Depth" = 2
 
 [categories]
 	Automation = true

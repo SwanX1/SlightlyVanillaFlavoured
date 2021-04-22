@@ -70,6 +70,12 @@
 		# Setting this to below min height config will make dungeon spawn only at min height.
 		#Range: 2 ~ 255
 		snowDungeonMaxHeight = 255
+		#
+		# Maximum Y height that this dungeon can spawn at. Default is 255.
+		# Note: The dungeon will spawn between min and max y height set in config.
+		# Setting this to below min height config will make dungeon spawn only at min height.
+		#Range: 2 ~ 255
+		icyDungeonMaxHeight = 255
 
 	[Dungeons."Min Height"]
 		#
@@ -122,6 +128,11 @@
 		# Note: The dungeon will spawn between min and max y height set in config.
 		#Range: 2 ~ 255
 		jungleDungeonMinHeight = 2
+		#
+		# Minimum Y height that this dungeon can spawn at. Default is 2.
+		# Note: The dungeon will spawn between min and max y height set in config.
+		#Range: 2 ~ 255
+		icyDungeonMinHeight = 2
 
 	[Dungeons.AttemptsPerChunk]
 		#
@@ -153,7 +164,9 @@
 		#Range: 0 ~ 1000
 		desertDungeonAttemptsPerChunk = 8
 		#
-		# Replace vanilla dungeon in icy/snow biomes with icy/snow themed dungeon.
+		# Replaces vanilla dungeon in icy biomes with ice themed dungeons. 
+		#
+		# (targets non-ocean biomes that are super cold or has frozen/ice/icy in name)
 		# How often dungeons will attempt to spawn per chunk.
 		# 0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
