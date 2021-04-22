@@ -1,0 +1,2 @@
+*.json text eol=lf
+*.toml text eol=lf
