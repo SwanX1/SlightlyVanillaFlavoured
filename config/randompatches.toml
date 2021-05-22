@@ -29,7 +29,7 @@
 	return_to_main_menu_after_disconnect = false
 	# Gives capes to RandomPatches contributors.
 	# Default: true
-	contributor_capes = true
+	contributor_capes = false
 
 	# Client-sided bug fixes.
 	[client.bug_fixes]
@@ -113,7 +113,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		title = "Minecraft* %s"
+		title = "Slightly Vanilla Flavoured"
 		# The Minecraft window title that also takes into account the current activity.
 		# Variables:
 		#  - ${mcversion}: The Minecraft version

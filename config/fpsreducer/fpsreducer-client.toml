@@ -16,7 +16,7 @@
 	enableFpsReducer = true
 	#Waiting time(sec) until reducing FPS. (0:OFF)
 	#Range: 0 ~ 86400
-	waitingTime = 300
+	waitingTime = 180
 	#HUD scale (default: 1.0)
 	#Range: 0.1 ~ 2.0
 	hudScale = 1.0
