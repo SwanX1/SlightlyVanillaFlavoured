@@ -677,6 +677,7 @@ async function compare(filename1, filename2) {
         logger.error(err);
       }
       delete pending[index];
+      mod.name = mod.name.replace(/[\[\(]?(forge|fabric|jei|mod)[\]\)]?/i, '').trim();
       cache[id.toString()] = mod;
       continueParsing();
     });
@@ -692,6 +693,7 @@ async function compare(filename1, filename2) {
         logger.error(err);
       }
       delete pending[index];
+      mod.name = mod.name.replace(/[\[\(]?(forge|fabric|jei|mod)[\]\)]?/i, '').trim();
       cache[id.toString()] = mod;
       continueParsing();
     });
@@ -707,6 +709,7 @@ async function compare(filename1, filename2) {
         logger.error(err);
       }
       delete pending[index];
+      mod.name = mod.name.replace(/[\[\(]?(forge|fabric|jei|mod)[\]\)]?/i, '').trim();
       cache[id.toString()] = mod;
       continueParsing();
     });
@@ -750,17 +753,13 @@ async function compare(filename1, filename2) {
       logger.debug(chalk`Fetched files for {yellow ${mod.name}}`);
       const filefrom = modfiles.find(v => v.id === from);
       const fileto = modfiles.find(v => v.id === to);
-      let errorfilefind = false;
       if (typeof filefrom === 'undefined') {
-        errorfilefind = true;
         logger.error(chalk`{bgRed ERROR} No file with id {yellow ${from}} found for ${mod.name}`);
       }
       if (typeof fileto === 'undefined') {
-        errorfilefind = true;
         logger.error(chalk`{bgRed ERROR} No file with id {yellow ${to}} found for ${mod.name}`);
       }
-      if (errorfilefind) continue;
-      changelog.push(['Updated', chalk`{underline ${mod.name}}`, chalk`{blue ${filefrom ? cleanVersion(mod.name, filefrom.displayName) : 'unknown'}}`, '->', chalk`{blue ${fileto ? cleanVersion(mod.name, fileto.displayName) : 'unknown'}}`]);
+      changelog.push(['Updated', chalk`{underline ${mod.name}}`, chalk`{blue ${filefrom ? cleanVersion(filefrom.displayName) : 'unknown'}}`, '->', chalk`{blue ${fileto ? cleanVersion(fileto.displayName) : 'unknown'}}`]);
     }
     const widthcounts = [];
     changelog.sort((a, b) => {
@@ -787,7 +786,7 @@ async function compare(filename1, filename2) {
       });
       changelogString += '\n';
     });
-    logger.quiet(changelogString);
+    logger.quiet(changelogString.replace(/\s+$/m, ''));
     
     process.exit(0);
   }
@@ -800,25 +799,8 @@ async function compare(filename1, filename2) {
     return repeatedstring;
   }
   
-  function cleanVersion(name, version) {
-    const origversion = version;
-    name = name.toLowerCase();
-    version = version.toLowerCase();
-    version = version.replace(/(\.|\-|\_|\s)+(forge|fabric)?(\.jar)?$/i, '');
-    const possibleNames = [
-      name,
-      name.replace(/\s/gi, '_'),
-      name.replace(/\s/gi, '-'),
-      name.replace(/\s/gi, '.'),
-      name.replace(/\s/gi, '')
-    ];
-    // Remove actual name from version
-    for (const possibleName of possibleNames) {
-      if (version.includes(possibleName)) version = version.replace(possibleName, '');
-    }
-    version = version.trim().replace(/^(\.|\-|\_|\s|v)+/, '');
-    logger.debug(chalk`Renamed {blue ${origversion}} to {blue ${version}}`);
-    return version; ``
+  function cleanVersion(version) {
+    return version.replace(/( ?-?\+?_?\[?\(?)*(((^|(?<=\8))([a-z '_])+)|((?<=elenai dodge )2)|(\.jar$)|(1\.16\.[3-5](\/[3-5])?[ \/ ]*(1\.16\.[3-5](\/[3-5])?)?)|[a-z]+(?=\d+(\.\d+)+)|(v)?(forge|fabric)|(mc|minecraft|for)|(1.16.x))( ?-?\+?_?\]?\)?)*/gi, '');
   }
   
   function verifyManifestFiles(file, filename) {

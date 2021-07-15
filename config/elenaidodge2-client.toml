@@ -21,4 +21,10 @@
 	fadeout = true
 	#Whether the Dodge Gui flashes when the player attempts to dodge when they haven't got enough feathers or too high a weight.
 	flash = true
+	#The X-Offset of the Feather Bar.
+	#Range: > -2147483648
+	x_offset = 0
+	#The Y-Offset of the Feather Bar.
+	#Range: > -2147483648
+	y_offset = 0
 

@@ -1,0 +1,7 @@
+
+#Common settings for Seeker Compass.
+[common]
+	#Chance for Zombified Piglins to naturally spawn holding a Seeker Compass. Default: 0.02
+	#Range: 0.0 ~ 1.0
+	zombifiedPiglinCompassChance = 0.019999999552965164
+

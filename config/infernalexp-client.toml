@@ -1,1 +1,6 @@
 
+[general]
+	#Determines how much (in ticks) the luminous effect should update
+	#Range: > 1
+	luminousRefreshRate = 2
+

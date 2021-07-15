@@ -1,0 +1,13 @@
+
+#Client only settings for Seeker Compass.
+[client]
+	#Determines the way the stalking eye is rendered for entities being stalked. Default: BOTH
+	#BOTH: GUI and ENTITY.
+	#ENTITY: Renders the eye above the entity.
+	#GUI: Renders the eye at the top of the GUI.
+	#DISABLED: The eye will not render at all.
+	#Allowed Values: BOTH, ENTITY, GUI, DISABLED
+	stalkingEyeProcedure = "BOTH"
+	#If the post-effect shader should be applied when stalking an entity.
+	enableStalkingShader = true
+

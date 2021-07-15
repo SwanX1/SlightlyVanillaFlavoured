@@ -10,9 +10,9 @@
 	[enchantments.reeling]
 		#Crossbow enchantment that pulls targets towards the user
 		"Enable Reeling" = true
-		#How much the entity is affected on the horizontal axis
+		#How much the target is affected on the horizontal axis
 		"Horizontal factor" = 0.5
-		#How much the entity is affected on the vertical axis
+		#How much the target is affected on the vertical axis
 		"Vertical factor" = 0.25
 
 	[enchantments.reforming]
@@ -30,6 +30,12 @@
 		"Enable Vengeance" = true
 		#How much the damage taken with vengeance is multiplied for attacks
 		"Damage factor" = 0.025
+
+	[enchantments.missile]
+		#Weapon enchantment that launches enemies upwards rather than away
+		"Enable Launch" = false
+		#How much the target is affected on the vertical axis
+		"Vertical factor" = 0.35
 
 [tweaks]
 
