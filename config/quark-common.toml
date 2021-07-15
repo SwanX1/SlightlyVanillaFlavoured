@@ -129,7 +129,7 @@
 	"Wooden Posts" = true
 	Hedges = true
 	Stools = true
-	"Celebratory Lamps" = true
+	"Celebratory Lamps" = false
 
 	[building.compressed_blocks]
 		#Allowed values: [0,)
