@@ -16,5 +16,5 @@
 	#Enhance vanilla biomes by adding additional decoration.
 	enhance_vanilla_biomes = true
 	#Enable nether generation from Biomes O' Plenty.
-	use_bop_nether = true
+	use_bop_nether = false
 
