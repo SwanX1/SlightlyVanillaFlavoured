@@ -67,10 +67,10 @@
 	[server.waystoneToWaystone]
 		#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 		#Range: 0.0 ~ Infinity
-		waystoneXpCostMultiplier = 1.0
+		waystoneXpCostMultiplier = 0.5
 		#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
 		#Range: 0.0 ~ Infinity
-		sharestoneXpCostMultiplier = 1.0
+		sharestoneXpCostMultiplier = 0.75
 		#The multiplier applied to the base xp cost when teleporting from a portstone.
 		#Range: 0.0 ~ Infinity
 		portstoneXpCostMultiplier = 0.0
@@ -84,7 +84,7 @@
 		globalWaystoneCooldownMultiplier = 1.0
 		#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 		#Range: 0.0 ~ Infinity
-		globalWaystonesXpCostMultiplier = 1.0
+		globalWaystonesXpCostMultiplier = 0.8
 
 	#These options apply to taking leashed mobs with you when teleporting.
 	[server.leashedMobs]

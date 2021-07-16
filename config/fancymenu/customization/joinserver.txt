@@ -1,0 +1,60 @@
+type = menu
+
+customization-meta {
+  identifier = joinserver
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = eaeef8d1-2cc2-441c-8f1d-4fe0b0498dfd1626427355548
+  y = -18
+  scale = 1.0
+  alignment = centered
+  value = You are about to join slightlyvanilla.net
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = eaeef8d1-2cc2-441c-8f1d-4fe0b0498dfd1626427355548
+  y = -3
+  scale = 1.0
+  alignment = centered
+  value = Are you sure you want to do this?
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = joinserver
+  x = -103
+  width = 98
+  actionid = 8bdbe3b0-acdf-4639-92e1-013d283b72391626427494636
+  action = addbutton
+  y = 25
+  label = Join Server
+  value = slightlyvanilla.net
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = closegui
+  x = -1
+  width = 98
+  actionid = fef7e2f7-32c1-422d-9b2f-b42767e2b4ad1626427548532
+  action = addbutton
+  y = 25
+  label = Back
+  value = svf.custom
+  height = 20
+}
+

@@ -1,0 +1,3 @@
+identifier = joinserver
+title = 
+allowesc = true

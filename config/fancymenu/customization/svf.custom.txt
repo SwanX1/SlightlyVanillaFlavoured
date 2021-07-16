@@ -1,0 +1,205 @@
+type = menu
+
+customization-meta {
+  identifier = svf.custom
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = closegui
+  x = 29
+  width = 70
+  actionid = 7187dbed-93ee-4726-8c78-172e6cea5f0d1626429055341
+  action = addbutton
+  y = -72
+  label = Back
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = opencustomgui
+  x = -100
+  width = 126
+  actionid = 0fb0a205-357c-4b88-8388-982c867b4bb11626429055343
+  action = addbutton
+  y = -72
+  label = Join the Official Server
+  value = joinserver
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  x = -100
+  width = 90
+  actionid = bb1861e6-0868-4877-b01b-2cb03a1d5c551626429055348
+  action = addbutton
+  y = -95
+  label = Open Website
+  value = http://www.slightlyvanilla.net
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  x = -7
+  width = 106
+  actionid = abbb6f03-4c63-4a1e-9358-3686dfa024e91626429055350
+  action = addbutton
+  y = -95
+  label = Join our Discord!
+  value = https://discord.gg/ygRhSJE
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/svflogo.png
+  orientation = top-centered
+  x = -50
+  width = 100
+  action = addtexture
+  actionid = 8f88c62f-caf2-4fdd-adfd-ada4a551109f1626427961574
+  y = 20
+  height = 100
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = f05850ac-4809-4856-bc69-7e1ef498f5761626428022903
+  y = 129
+  scale = 2.0
+  alignment = centered
+  value = Credits
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = f05850ac-4809-4856-bc69-7e1ef498f5761626428022903
+  y = 159
+  scale = 1.5
+  alignment = centered
+  value = Modpack Author
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = f05850ac-4809-4856-bc69-7e1ef498f5761626428022903
+  y = 198
+  scale = 1.5
+  alignment = centered
+  value = Modpack Maintainer
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = f05850ac-4809-4856-bc69-7e1ef498f5761626428022903
+  y = 237
+  scale = 1.5
+  alignment = centered
+  value = Special thanks to
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = f05850ac-4809-4856-bc69-7e1ef498f5761626428022903
+  y = 180
+  scale = 1.0
+  alignment = centered
+  value = Ramoddi (@ramoddi#8720 on Discord)
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = f05850ac-4809-4856-bc69-7e1ef498f5761626428022903
+  y = 219
+  scale = 1.0
+  alignment = centered
+  value = SwanX1 (@Swan#7488 on Discord)
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = f05850ac-4809-4856-bc69-7e1ef498f5761626428022903
+  y = 258
+  scale = 1.0
+  alignment = centered
+  value = All the amazing people in our Discord server!
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = f05850ac-4809-4856-bc69-7e1ef498f5761626428022903
+  y = 273
+  scale = 1.0
+  alignment = centered
+  value = The Discord server boosters!
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = f05850ac-4809-4856-bc69-7e1ef498f5761626428022903
+  y = 288
+  scale = 1.0
+  alignment = centered
+  value = BisectHosting, for sponsoring our modpack and providing
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = f05850ac-4809-4856-bc69-7e1ef498f5761626428022903
+  y = 298
+  scale = 1.0
+  alignment = centered
+  value = a server for the modpack! Join it using the button below.
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = f05850ac-4809-4856-bc69-7e1ef498f5761626428022903
+  y = 308
+  scale = 1.0
+  alignment = centered
+  value = Use code 'ramoddi' for 25% off your first month on your server!
+}
+
