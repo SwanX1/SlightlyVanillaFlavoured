@@ -13,7 +13,7 @@
 	claimed_chunks_on_map: true
 	
 	# Enables creation of death waypoints
-	# Default: true
+	# Default: false
 	death_waypoints: false
 	
 	# Enables debug info
@@ -31,8 +31,8 @@
 	grass_darkness: 50
 	
 	# Show waypoints in world
-	# Default: true
-	in_world_waypoints: true
+	# Default: false
+	in_world_waypoints: false
 	
 	# Different ways to render map
 	# Default: "none"
@@ -40,9 +40,9 @@
 	map_mode: "none"
 	
 	# Noise added to map to make it look less plastic
-	# Default: 0.05d
+	# Default: 0.0d
 	# Range: 0.0d ~ 0.5d
-	noise: 0.05d
+	noise: 0.0d
 	
 	# Show your own claimed chunks on the map
 	# Default: true
@@ -50,7 +50,7 @@
 	
 	# Reduces color palette to 256 colors
 	# Default: false
-	reduced_color_palette: false
+	reduced_color_palette: true
 	
 	# Advanced option. How often map render update will be queued
 	# Default: 60
@@ -58,14 +58,14 @@
 	rerender_queue_ticks: 60
 	
 	# Color intensity
-	# Default: 1.0d
+	# Default: 0.75d
 	# Range: 0.0d ~ 1.0d
-	saturation: 1.0d
+	saturation: 0.75d
 	
 	# Shadow intensity
-	# Default: 0.1d
+	# Default: 0.025d
 	# Range: 0.0d ~ 0.3d
-	shadows: 0.1d
+	shadows: 0.025d
 	
 	# Advanced option. Max tasks that can queue up
 	# Default: 100
@@ -88,28 +88,28 @@
 	water_visibility: 220
 	minimap: {
 		# Show biome under minimap
-		# Default: true
-		biome: true
+		# Default: false
+		biome: false
 		
 		# Blurs minimap
 		# Default: true
 		blur: true
 		
 		# Adds NWSE compass inside minimap
-		# Default: true
-		compass: true
+		# Default: false
+		compass: false
 		
 		# Enable minimap
-		# Default: true
+		# Default: false
 		enabled: false
 		
 		# Show entities on minimap
-		# Default: true
-		entities: true
+		# Default: false
+		entities: false
 		
 		# Show entity heads on minimap
-		# Default: true
-		entity_heads: true
+		# Default: false
+		entity_heads: false
 		
 		# Entities in minimap will be larger
 		# Default: false
@@ -120,8 +120,8 @@
 		locked_north: true
 		
 		# Show player heads on minimap
-		# Default: true
-		player_heads: true
+		# Default: false
+		player_heads: false
 		
 		# Enables minimap to show up in corner
 		# Default: "top_right"
@@ -129,9 +129,9 @@
 		position: "top_right"
 		
 		# Scale of minimap
-		# Default: 1.0d
+		# Default: 0.75d
 		# Range: 0.25d ~ 4.0d
-		scale: 1.0d
+		scale: 0.75d
 		
 		# Minimap visibility
 		# Default: 255
@@ -139,15 +139,15 @@
 		visibility: 255
 		
 		# Show waypoints on minimap
-		# Default: true
-		waypoints: true
+		# Default: false
+		waypoints: false
 		
 		# Show XYZ under minimap
-		# Default: true
-		xyz: true
+		# Default: false
+		xyz: false
 		
 		# Show zone (claimed chunk or wilderness) under minimap
 		# Default: true
-		zone: true
+		zone: false
 	}
 }

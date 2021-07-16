@@ -1,2 +1,3 @@
 *.json text eol=lf
 *.toml text eol=lf
+*.snbt text eol=lf
