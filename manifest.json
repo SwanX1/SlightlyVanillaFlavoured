@@ -12,7 +12,7 @@
   "overrides": "overrides",
   "manifestVersion": 1,
   "name": "Slightly Vanilla Flavoured",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "author": "Ramoddi",
   "files": [
     {
@@ -62,7 +62,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 3383214,
+      "fileID": 3397912,
       "required": true
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "projectID": 243121,
-      "fileID": 3366626,
+      "fileID": 3394265,
       "required": true
     },
     {
@@ -143,6 +143,11 @@
     {
       "projectID": 285612,
       "fileID": 3211323,
+      "required": true
+    },
+    {
+      "projectID": 289712,
+      "fileID": 3371803,
       "required": true
     },
     {
@@ -237,7 +242,7 @@
     },
     {
       "projectID": 331936,
-      "fileID": 3346836,
+      "fileID": 3390028,
       "required": true
     },
     {
@@ -268,6 +273,11 @@
     {
       "projectID": 351441,
       "fileID": 3066596,
+      "required": true
+    },
+    {
+      "projectID": 351914,
+      "fileID": 3291267,
       "required": true
     },
     {
@@ -322,7 +332,7 @@
     },
     {
       "projectID": 368293,
-      "fileID": 3386058,
+      "fileID": 3396030,
       "required": true
     },
     {
@@ -521,8 +531,18 @@
       "required": true
     },
     {
+      "projectID": 445274,
+      "fileID": 3375134,
+      "required": true
+    },
+    {
+      "projectID": 445385,
+      "fileID": 3349970,
+      "required": true
+    },
+    {
       "projectID": 446253,
-      "fileID": 3386517,
+      "fileID": 3396837,
       "required": true
     },
     {
@@ -557,7 +577,7 @@
     },
     {
       "projectID": 486392,
-      "fileID": 3384004,
+      "fileID": 3389159,
       "required": true
     }
   ]

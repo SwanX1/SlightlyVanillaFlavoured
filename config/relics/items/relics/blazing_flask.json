@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "levitationHeight": 5.0,
+    "levitationSpeed": 0.75,
+    "igniteDuration": 5,
+    "consumptionCooldown": 10,
+    "consumptionRadius": 10,
+    "capacity": 100
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/nether_bridge",
+      "minecraft:chests/bastion_bridge",
+      "minecraft:chests/bastion_other",
+      "minecraft:chests/bastion_treasure",
+      "minecraft:chests/bastion_hoglin_stable",
+      "minecraft:chests/ruined_portal"
+    ],
+    "chance": 0.075
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}

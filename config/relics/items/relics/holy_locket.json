@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "damageMultiplier": 1.5,
+    "igniteChance": 0.25,
+    "burnDuration": 4,
+    "healChance": 0.1,
+    "invulnerabilityTime": 10
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/desert_pyramid",
+      "minecraft:chests/village/village_desert_house"
+    ],
+    "chance": 0.1
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}

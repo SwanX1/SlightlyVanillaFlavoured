@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "invisibilityTime": 60,
+    "damageMultiplier": 2.0
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/stronghold_corridor",
+      "minecraft:chests/stronghold_crossing",
+      "minecraft:chests/stronghold_library",
+      "minecraft:chests/abandoned_mineshaft"
+    ],
+    "chance": 0.125
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}

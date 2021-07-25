@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "soulLooseCooldown": 10,
+    "minSoulLooseAmount": 5,
+    "soulLoseMultiplierPerSoul": 0.1,
+    "soulForExplosion": 50,
+    "explosionPreparation": 12,
+    "explosionRadius": 10,
+    "explosionKnockback": 5.0,
+    "minExplosionDamage": 2,
+    "explosionDamagePerSoul": 0.75,
+    "explosionCooldown": 60,
+    "soulCapacity": 100,
+    "soulFromHealthPercentage": 0.25,
+    "playerDamageMultiplierPerSoul": 0.1
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/nether_bridge",
+      "minecraft:chests/bastion_bridge",
+      "minecraft:chests/bastion_other",
+      "minecraft:chests/bastion_treasure",
+      "minecraft:chests/bastion_hoglin_stable",
+      "minecraft:chests/ruined_portal"
+    ],
+    "chance": 0.075
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}

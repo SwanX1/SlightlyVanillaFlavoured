@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "speedModifier": 1.1,
+    "maxSpeedupTime": 10.0,
+    "speedupsPerRam": 2,
+    "ramRadius": 1,
+    "baseRamDamage": 2.0,
+    "fallingDamageMultiplier": 0.25
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/igloo_chest",
+      "minecraft:chests/village/village_snowy_house",
+      "minecraft:chests/village/village_taiga_house"
+    ],
+    "chance": 0.125
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}

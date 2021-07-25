@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "lootingChance": 0.1,
+    "fortuneChance": 0.1,
+    "additionalLooting": 3,
+    "additionalFortune": 3
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/village/village_butcher"
+    ],
+    "chance": 0.1
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "maxCharges": 3,
+    "timePerCharge": 60,
+    "minDistanceForKnockback": 10,
+    "reflectedDamageMultiplier": 2.0
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/nether_bridge",
+      "minecraft:chests/bastion_bridge",
+      "minecraft:chests/bastion_other",
+      "minecraft:chests/bastion_treasure",
+      "minecraft:chests/bastion_hoglin_stable",
+      "minecraft:chests/ruined_portal"
+    ],
+    "chance": 0.075
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}

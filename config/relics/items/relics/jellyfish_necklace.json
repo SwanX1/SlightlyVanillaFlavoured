@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "chargePreparationTime": 60,
+    "maxCharges": 10,
+    "damagePerCharge": 10,
+    "healMultiplier": 2.0,
+    "shockRadius": 1.2
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/underwater_ruin_big",
+      "minecraft:chests/underwater_ruin_small",
+      "minecraft:chests/shipwreck_treasure"
+    ],
+    "chance": 0.125
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}

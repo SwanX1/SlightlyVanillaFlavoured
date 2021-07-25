@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "flySpeed": 1.5,
+    "ramDamage": 5.0,
+    "ramKnockback": 3.0,
+    "breathConsumptionRadius": 10,
+    "breathCapacity": 1000,
+    "breathConsumptionSpeed": 0.02,
+    "breathRegenerationCooldown": 2
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/end_city_treasure"
+    ],
+    "chance": 0.1
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}

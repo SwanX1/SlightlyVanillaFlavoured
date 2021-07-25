@@ -1,0 +1,31 @@
+{
+  "stats": {
+    "speedModifier": -0.1,
+    "knockbackResistanceModifier": 0.5,
+    "minFallDistance": 3,
+    "fallMotionMultiplier": 1.075,
+    "wallSlippingSpeed": 0.1,
+    "stompCooldownMultiplier": 3.0,
+    "stompRadiusMultiplier": 0.5,
+    "stompMotionMultiplier": 1.01,
+    "dealtDamageMultiplier": 1.0,
+    "maxDealtDamage": 100,
+    "incomingFallDamageMultiplier": 0.0
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/igloo_chest",
+      "minecraft:chests/village/village_snowy_house",
+      "minecraft:chests/village/village_taiga_house"
+    ],
+    "chance": 0.1
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}

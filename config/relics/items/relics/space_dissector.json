@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "projectileSpeed": 0.75,
+    "maxThrownTime": 60,
+    "timeBeforeReturn": 10,
+    "distanceForTeleport": 5,
+    "cooldownAfterTeleport": 30,
+    "cooldownAfterReturn": 5,
+    "maxBounces": 10,
+    "additionalTimeAfterBounce": 4,
+    "baseDamage": 4,
+    "damageMultiplierPerBounce": 2.0
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/end_city_treasure"
+    ],
+    "chance": 0.075
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}

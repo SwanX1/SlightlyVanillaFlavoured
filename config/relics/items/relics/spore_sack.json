@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "chance": 0.3,
+    "radius": 3,
+    "cooldown": 5,
+    "poisonAmplifier": 2,
+    "poisonDuration": 5,
+    "slownessAmplifier": 0,
+    "slownessDuration": 5
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/jungle_temple"
+    ],
+    "chance": 0.125
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}
